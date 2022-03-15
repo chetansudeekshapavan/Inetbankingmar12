@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81694" started-at="2022-03-15T05:27:46Z" finished-at="2022-03-15T05:29:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81694" started-at="2022-03-15T05:27:46Z" finished-at="2022-03-15T05:29:07Z">
+      <class name="com.sai.testcases.Login_DDT">
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:com.sai.testcases.Login_DDT@616ca2]" name="StartTest" is-config="true" duration-ms="48987" started-at="2022-03-15T05:27:46Z" finished-at="2022-03-15T05:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method status="PASS" signature="LoginDDTest(java.lang.String, java.lang.String)[pri:0, instance:com.sai.testcases.Login_DDT@616ca2]" name="LoginDDTest" duration-ms="6216" started-at="2022-03-15T05:28:50Z" data-provider="logintest" finished-at="2022-03-15T05:28:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr391932]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hubEhep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sai.testcases.Login_DDT@616ca2]" name="TearDown" is-config="true" duration-ms="10939" started-at="2022-03-15T05:28:56Z" finished-at="2022-03-15T05:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sai.testcases.Login_DDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

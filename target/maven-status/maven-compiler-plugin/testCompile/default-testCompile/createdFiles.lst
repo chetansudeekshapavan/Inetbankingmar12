@@ -1,0 +1,9 @@
+com\sai\testcases\Logintest.class
+com\sai\testcases\BaseClass.class
+com\sai\pageobjects\Loginpageobjects.class
+com\sai\testcases\Login_DDT.class
+com\sai\testcases\AddCustTestcase.class
+com\sai\pageobjects\NewCustpageobjects.class
+com\sai\testutils\XLUtils.class
+com\sai\testutils\Read_Config.class
+com\sai\testutils\Report.class
