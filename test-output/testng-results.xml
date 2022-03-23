@@ -2,36 +2,71 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27119" started-at="2022-03-14T12:59:44Z" finished-at="2022-03-14T13:00:12Z">
+  <suite name="Suite" duration-ms="131296" started-at="2022-03-23T10:28:09Z" finished-at="2022-03-23T10:30:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27119" started-at="2022-03-14T12:59:44Z" finished-at="2022-03-14T13:00:12Z">
-      <class name="com.sai.testcases.Login_DDT">
-        <test-method status="PASS" signature="StartTest()[pri:0, instance:com.sai.testcases.Login_DDT@152f6e2]" name="StartTest" is-config="true" duration-ms="20921" started-at="2022-03-14T18:29:45Z" finished-at="2022-03-14T18:30:06Z">
+    <test name="Test" duration-ms="131296" started-at="2022-03-23T10:28:09Z" finished-at="2022-03-23T10:30:20Z">
+      <class name="com.sai.testcases.Registration_DDF">
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:com.sai.testcases.Registration_DDF@152f6e2]" name="StartTest" is-config="true" duration-ms="46107" started-at="2022-03-23T15:58:09Z" finished-at="2022-03-23T15:58:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartTest -->
-        <test-method status="PASS" signature="LoginDDTest(java.lang.String, java.lang.String)[pri:0, instance:com.sai.testcases.Login_DDT@152f6e2]" name="LoginDDTest" duration-ms="3654" started-at="2022-03-14T18:30:07Z" data-provider="logintest" finished-at="2022-03-14T18:30:11Z">
+        <test-method status="PASS" signature="getRegdata(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sai.testcases.Registration_DDF@152f6e2]" name="getRegdata" duration-ms="82801" started-at="2022-03-23T15:58:56Z" data-provider="RegistrationTest" finished-at="2022-03-23T16:00:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr391932]]>
+                <![CDATA[Pavansaisudeeksha]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[hubEhep]]>
+                <![CDATA[24/08/1986]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nrt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[VNK]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[522647]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8328610490]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Testsaikkkklll@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sailgfrt]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginDDTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sai.testcases.Login_DDT@152f6e2]" name="TearDown" is-config="true" duration-ms="856" started-at="2022-03-14T18:30:11Z" finished-at="2022-03-14T18:30:12Z">
+        </test-method> <!-- getRegdata -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sai.testcases.Registration_DDF@152f6e2]" name="TearDown" is-config="true" duration-ms="836" started-at="2022-03-23T16:00:19Z" finished-at="2022-03-23T16:00:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.sai.testcases.Login_DDT -->
+      </class> <!-- com.sai.testcases.Registration_DDF -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

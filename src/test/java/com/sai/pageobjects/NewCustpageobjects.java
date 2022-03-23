@@ -47,6 +47,10 @@ public class NewCustpageobjects {
 	{
 		custname.sendKeys(cname);
 	}
+	public void setcustdob(String cdob)
+	{
+		custdob.sendKeys(cdob);
+	}
 	public void setcustdobd(String cday)
 	{
 		custdob.sendKeys(cday);
