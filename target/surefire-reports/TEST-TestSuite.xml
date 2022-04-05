@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="59.149" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="59.419" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="JOB_NAME" value="gittest"/>
+    <property name="JOB_NAME" value="latestgit"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8084/job/gittest/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8084/job/latestgit/2/display/redirect?page=tests"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\Users\Pavan\.jenkins"/>
@@ -25,9 +25,9 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="gittest"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8084/job/gittest/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="JOB_BASE_NAME" value="latestgit"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8084/job/latestgit/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
     <property name="OneDrive" value="C:\Users\Pavan\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -39,7 +39,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="TERM" value="dumb"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="maven.conf" value="C:\apache-maven-3.6.3\conf"/>
@@ -55,14 +55,15 @@
     <property name="PLMVIS_82_LIBPATH" value="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\Program"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8084/job/gittest/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8084/job/latestgit/2/display/redirect"/>
     <property name="TMP" value="C:\Users\Pavan\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8084/job/gittest/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8084/job/latestgit/2/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="498165ddacb85a1b54edba17fca82405b52ec23e"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8084/job/gittest/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8084/job/latestgit/display/redirect"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-PEVVTSQ"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -75,7 +76,7 @@
     <property name="user.script" value=""/>
     <property name="user.home" value="C:\Users\Pavan"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-gittest-1"/>
+    <property name="BUILD_TAG" value="jenkins-latestgit-2"/>
     <property name="JENKINS_SERVER_COOKIE" value="fc7fb648a6bf0fd8"/>
     <property name="HUDSON_URL" value="http://localhost:8084/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -91,7 +92,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Users\Pavan\.jenkins\war\WEB-INF\lib\remoting-4.12.jar C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61589"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Users\Pavan\.jenkins\war\WEB-INF\lib\remoting-4.12.jar C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50319"/>
     <property name="Path" value="C:\Program Files\Java\jdk-11.0.13/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\lib;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Pavan\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="jdk.debug" value="release"/>
     <property name="FTP_PASSIVE" value="1"/>
@@ -111,30 +112,30 @@
     <property name="PATH+MAVEN" value="C:\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8084/job/gittest/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8084/job/latestgit/2/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.dir" value="E:\SELAUTMAR12"/>
-    <property name="JOB_URL" value="http://localhost:8084/job/gittest/"/>
+    <property name="JOB_URL" value="http://localhost:8084/job/latestgit/"/>
     <property name="LOGONSERVER" value="\\DESKTOP-PEVVTSQ"/>
     <property name="USERDOMAIN" value="DESKTOP-PEVVTSQ"/>
     <property name="MAVEN_HOME" value="C:\apache-maven-3.6.3"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
     <property name="JENKINS_URL" value="http://localhost:8084/"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="50949e1cb2d2349222143b2070c4a3d24e1a36a2"/>
+    <property name="GIT_COMMIT" value="498165ddacb85a1b54edba17fca82405b52ec23e"/>
     <property name="=C:" value="C:\Program Files\Jenkins"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Pavan\.jenkins\workspace\gittest@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Pavan\.jenkins\workspace\gittest"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Pavan\.jenkins\workspace\latestgit@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\Pavan\.jenkins\workspace\latestgit"/>
     <property name="maven3.interceptor.common" value="C:\Users\Pavan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="java.specification.version" value="11"/>
@@ -142,30 +143,31 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="GIT_URL" value="https://github.com/chetansudeekshapavan/Inetbankingmar12.git"/>
   </properties>
-  <testcase name="getRegdata" classname="com.sai.testcases.Registration_DDF" time="19.848">
-    <failure message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=99.0.4844.84)&#10;  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds: null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-PEVVTSQ&apos;, ip: &apos;192.168.0.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\Pavan\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 99.0.4844.84, webStorageEnabled: true}&#10;Session ID: ff8f66ad7636a1340d04ffdd81d5cde7&#10;*** Element info: {Using=xpath, value=//a[normalize-space()=&apos;New Customer&apos;]}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : User or Password is not valid}
+  <testcase name="getRegdata" classname="com.sai.testcases.Registration_DDF" time="24.308">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;name&quot;}&#10;  (Session info: chrome=99.0.4844.84)&#10;  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-PEVVTSQ&apos;, ip: &apos;192.168.0.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\Pavan\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 99.0.4844.84, webStorageEnabled: true}&#10;Session ID: 98977e073810fcd19ea6715baed76c4e&#10;*** Element info: {Using=name, value=name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"name"}
   (Session info: chrome=99.0.4844.84)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds: null
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-PEVVTSQ', ip: '192.168.0.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\Pavan\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 99.0.4844.84, webStorageEnabled: true}
-Session ID: ff8f66ad7636a1340d04ffdd81d5cde7
-*** Element info: {Using=xpath, value=//a[normalize-space()='New Customer']}
-	at com.sai.testcases.Registration_DDF.getRegdata(Registration_DDF.java:28)
+Session ID: 98977e073810fcd19ea6715baed76c4e
+*** Element info: {Using=name, value=name}
+	at com.sai.testcases.Registration_DDF.getRegdata(Registration_DDF.java:30)
 </failure>
     <system-out><![CDATA[ INFO [main] (BaseClass.java:40)- url entered
  INFO [main] (Registration_DDF.java:20)- Username entered
  INFO [main] (Registration_DDF.java:23)- password entered
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 6153
+    <system-err><![CDATA[Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 45406
 Only local connections are allowed.
-[1649137626.718][WARNING]: Timed out connecting to Chrome, retrying...
-Apr 05, 2022 11:17:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649181106.648][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 05, 2022 11:21:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-[1649137645.166][WARNING]: Timed out connecting to Chrome, retrying...
+[1649181119.935][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
 </testsuite>
