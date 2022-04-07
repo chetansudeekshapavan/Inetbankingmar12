@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.sai.testutils.Report"/>
   </listeners>
-  <test name="Test">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.sai.testcases.Registration_DDF"/>
+      <class name="com.sai.testcases.Logintest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="StartTest"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.sai.testcases.Logintest -->
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

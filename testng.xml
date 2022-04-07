@@ -6,7 +6,6 @@
 </listeners>
   <test name="Test">
     <classes>
-      
       <class name="com.sai.testcases.Logintest"/>
     </classes>
   </test> <!-- Test -->
