@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T08:25:26 IST" name="Suite" finished-at="2022-04-07T08:26:14 IST" duration-ms="47788">
+  <suite started-at="2022-04-07T10:15:41 IST" name="Suite" finished-at="2022-04-07T10:16:26 IST" duration-ms="44966">
     <groups>
     </groups>
-    <test started-at="2022-04-07T08:25:26 IST" name="Test" finished-at="2022-04-07T08:26:14 IST" duration-ms="47788">
+    <test started-at="2022-04-07T10:15:41 IST" name="Test" finished-at="2022-04-07T10:16:26 IST" duration-ms="44966">
       <class name="com.sai.testcases.Logintest">
-        <test-method is-config="true" signature="StartTest()[pri:0, instance:com.sai.testcases.Logintest@f79e]" started-at="2022-04-07T08:25:27 IST" name="StartTest" finished-at="2022-04-07T08:25:54 IST" duration-ms="27173" status="PASS">
+        <test-method is-config="true" signature="StartTest()[pri:0, instance:com.sai.testcases.Logintest@44a7bfbc]" started-at="2022-04-07T10:15:41 IST" name="StartTest" finished-at="2022-04-07T10:16:07 IST" duration-ms="25251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartTest -->
-        <test-method signature="Login()[pri:0, instance:com.sai.testcases.Logintest@f79e]" started-at="2022-04-07T08:25:54 IST" name="Login" finished-at="2022-04-07T08:26:13 IST" duration-ms="19224" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.sai.testcases.Logintest@44a7bfbc]" started-at="2022-04-07T10:16:07 IST" name="Login" finished-at="2022-04-07T10:16:25 IST" duration-ms="18005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.sai.testcases.Logintest@f79e]" started-at="2022-04-07T08:26:13 IST" name="TearDown" finished-at="2022-04-07T08:26:14 IST" duration-ms="829" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.sai.testcases.Logintest@44a7bfbc]" started-at="2022-04-07T10:16:25 IST" name="TearDown" finished-at="2022-04-07T10:16:26 IST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
